@@ -25,4 +25,17 @@ npm publish
 ```
 
 That's it!
- 
+
+### how to run schematics
+ in developer mode run (prefix) (--dry-run by default)
+```bash
+schematics .:simple-file-create
+```
+run without debug mode
+```bash
+schematics .:simple-file-create --debug=false
+```
+run without debug mode with parameters
+```bash
+schematics .:simple-file-create --fileName=test2 --content=testContent --debug=false
+```

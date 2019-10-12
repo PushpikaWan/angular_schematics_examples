@@ -7,7 +7,8 @@
     },
     "simple-file-create": {
       "description": "A simple ts file creation schematic with given console log and class name.",
-      "factory": "./simple-file-create/index#simpleFileCreate"
+      "factory": "./simple-file-create/index#simpleFileCreate",
+      "schema": "./simple-file-create/schema.json"
     }
   }
 }

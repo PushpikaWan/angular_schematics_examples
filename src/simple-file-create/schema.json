@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "SchematicsSimpleFileCreate",
+  "title": "Angular Simple File Creation Options Schema",
+  "type": "object",
+  "description": "Creates a new generic NgModule definition in the given or default project.",
+  "properties": {
+    "fileName": {
+      "type": "string",
+      "description": "The name of file that need to create",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      },
+      "x-prompt": "What name would you like to use for the NgModule?"
+    },
+    "content": {
+      "type": "string",
+      "description": "content of the file",
+      "default": "This is the default content"
+    }
+  },
+  "required": [
+    "fileName"
+  ]
+}
