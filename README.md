@@ -55,3 +55,21 @@ schematics .:service-template --findOne --debug=false
 ```
 
 **we can use --force flag to overwrite.
+
+### Way to use in other project
+There are multiple ways to use in project
+
+01. use inside same machine by linking
+(assume u)
+ 
+ ```bash
+# create new project with Angular CLI
+ng new my-schematic-test --minimal --skip-install
+cd my-schematic-test
+
+# link schematic, be sure to `npm run build` in your schematics project
+npm link ../schematics-example  #need to provide exact path of schematic project
+
+# run with option to skip install
+schematics my-schematic:my-schematic --skipi
+ ```

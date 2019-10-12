@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "SchematicAddDependencies",
+  "title": "Angular dependencies add schematic",
+  "type": "object",
+  "properties": {
+    "skipi": {
+      "type": "boolean",
+      "default": false,
+      "description": "Determines if dependencies should be installed."
+    }
+  }
+}
