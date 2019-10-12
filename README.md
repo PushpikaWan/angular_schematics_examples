@@ -43,3 +43,15 @@ schematics .:simple-file-create --fileName=test2 --content=testContent --debug=f
 ### Define custom templates
 
 create file with name using __ ("double underscore prefix") eg: __name@-suffix
+```bash
+schematics .:schematic-with-template --debug=false
+```
+
+### Define angular service template (advanced template)
+
+can create service using this template and we can hide/ visible code methods using flag like "--findOne"
+```bash
+schematics .:service-template --findOne --debug=false
+```
+
+**we can use --force flag to overwrite.

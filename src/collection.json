@@ -14,6 +14,11 @@
       "description": "A schematic that use to create templates.",
       "factory": "./schematic-with-template/index#schematicWithTemplate",
       "schema": "./schematic-with-template/schema.json"
+    },
+    "service-template": {
+      "description": "A angular service template schematic.",
+      "factory": "./service-template/index#serviceTemplate",
+      "schema": "./service-template/schema.json"
     }
   }
 }
