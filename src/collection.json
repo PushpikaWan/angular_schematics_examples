@@ -4,6 +4,10 @@
     "schematics-example": {
       "description": "A blank schematic.",
       "factory": "./schematics-example/index#schematicsExample"
+    },
+    "simple-file-create": {
+      "description": "A simple ts file creation schematic with given console log and class name.",
+      "factory": "./simple-file-create/index#simpleFileCreate"
     }
   }
 }
