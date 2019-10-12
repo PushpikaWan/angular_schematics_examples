@@ -39,3 +39,7 @@ run without debug mode with parameters
 ```bash
 schematics .:simple-file-create --fileName=test2 --content=testContent --debug=false
 ```
+
+### Define custom templates
+
+create file with name using __ ("double underscore prefix") eg: __name@-suffix

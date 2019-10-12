@@ -9,6 +9,11 @@
       "description": "A simple ts file creation schematic with given console log and class name.",
       "factory": "./simple-file-create/index#simpleFileCreate",
       "schema": "./simple-file-create/schema.json"
+    },
+    "schematic-with-template": {
+      "description": "A schematic that use to create templates.",
+      "factory": "./schematic-with-template/index#schematicWithTemplate",
+      "schema": "./schematic-with-template/schema.json"
     }
   }
 }

@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "SchematicsWithTemplates",
+  "title": "Angular Template creation Schema",
+  "type": "object",
+  "description": "Creates a new generic NgModule definition in the given or default project.",
+  "properties": {
+    "className": {
+      "type": "string",
+      "description": "The name of class that need to create",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      },
+      "x-prompt": "What name would you like to have as a class name"
+    }
+  },
+  "required": [
+    "className"
+  ]
+}
